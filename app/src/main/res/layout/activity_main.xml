@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextHw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hydrogen (Hw) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carbon (Cw) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextSw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sulfur (Sw) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextNw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nitrogen (Nw) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextOw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oxygen (Ow) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moisture (W) %"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ash (A) %"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <Button
+        android:id="@+id/switchToFuelOilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to Fuel Oil Calculator"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+</LinearLayout>
+

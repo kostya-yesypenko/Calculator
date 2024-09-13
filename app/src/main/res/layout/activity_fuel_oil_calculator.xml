@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carbon (C)%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hydrogen (H) %"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oxygen (O)%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sulfur (S)%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextQi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lower Heating Value (Qi) MJ/kg"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moisture (W) %"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ash (A) %"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vanadium (V) mg/kg"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/switchToFuelCompButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch to Fuel Composition Calculator" />
+</LinearLayout>
